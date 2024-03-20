@@ -17,12 +17,4 @@ This program demonstrates reading data from a CSV file using Apache Flink.
 
 4. Right-click on the `main` method inside `CsvSourceMain` and select "Run CsvSourceMain.main()".
 
-5. If prompted, edit the run configuration to include the necessary dependencies to the classpath:
-    - Click on "Edit Configurations" from the top-right dropdown menu or the toolbar.
-    - In the "Run/Debug Configurations" window, go to the "Dependencies" tab.
-    - Add the required Flink dependencies (e.g., flink-core, flink-streaming-java, flink-clients, etc.) to the classpath.
-    - Apply the changes and close the window.
-
-6. Run the program by clicking the green "Run" button in the toolbar or pressing Shift+F10.
-
-7. Monitor the program's output in the Intellij IDEA console.
+5. Monitor the program's output in the Intellij IDEA console.

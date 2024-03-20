@@ -18,8 +18,8 @@
 
     <dependencies>
         <!-- Flink Dependencies -->
-        <!-- NOTE: Most of these below flink dependencies can be marked as scope provided since they come bundled
-               with flink cluster docker image. -->
+        <!-- NOTE: Most of these below flink dependencies can be marked as scope `provided` since
+        they are bundled with flink cluster OOTB. Skipped for ease of use for now. -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-java</artifactId>
@@ -54,7 +54,6 @@
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-files</artifactId>
             <version>${flink.version}</version>
-            <scope>provided</scope>
         </dependency>
 
 
