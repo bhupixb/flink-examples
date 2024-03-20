@@ -16,5 +16,7 @@ This program demonstrates reading data from a CSV file using Apache Flink.
 3. Go to the `CsvSourceMain` class in the project.
 
 4. Right-click on the `main` method inside `CsvSourceMain` and select "Run CsvSourceMain.main()".
+ 
+5. Make sure you have selected `Java 11` in your run configurations.
 
-5. Monitor the program's output in the Intellij IDEA console.
+6. Monitor the program's output in the Intellij IDEA console.
